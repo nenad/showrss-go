@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:tv="http://showrss.info">
+    <channel>
+        <title>showRSS personal feed</title>
+        <link>http://showrss.info</link>
+        <ttl>30</ttl>
+        <description>showRSS personal feed</description>
+        <item>
+            <title>Would I Lie To You S12E06 720p WEB h264 KOMPOST</title>
+            <link>magnet:?xt=urn:btih:187EBB1E84C3F304B059CCEA4A3887B5BB143E88&amp;dn=Would+I+Lie+To+You+S12E06+720p+WEB+h264+KOMPOST&amp;tr=udp%3A%2F%2Ftest.test.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.leechers-paradise.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.opentrackr.org%3A1337%2Fannounce&amp;tr=http%3A%2F%2Ftest.test2.com%3A80%2Fannounce</link>
+            <guid isPermaLink="false">90f3e8da2ebf8837a49404a63473c108840f1508</guid>
+            <pubDate>Tue, 04 Dec 2018 17:05:06 +0000</pubDate>
+            <description>New episode: Would I Lie To You S12E06 720p WEB h264 KOMPOST</description>
+            <tv:show_id>1095</tv:show_id>
+            <tv:external_id>2957</tv:external_id>
+            <tv:show_name>Would I Lie To You?</tv:show_name>
+            <tv:episode_id>83615</tv:episode_id>
+            <tv:raw_title>Would I Lie To You S12E06 720p WEB h264 KOMPOST</tv:raw_title>
+            <tv:info_hash>187EBB1E84C3F304B059CCEA4A3887B5BB143E88</tv:info_hash>
+            <enclosure
+                    url="magnet:?xt=urn:btih:187EBB1E84C3F304B059CCEA4A3887B5BB143E88&amp;dn=Would+I+Lie+To+You+S12E06+720p+WEB+h264+KOMPOST&amp;tr=udp%3A%2F%2Ftest.test.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.leechers-paradise.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.opentrackr.org%3A1337%2Fannounce&amp;tr=http%3A%2F%2Ftest.test2.com%3A80%2Fannounce"
+                    length="0" type="application/x-bittorrent"/>
+        </item>
+        <item>
+            <title>This Is Us S03E09 HDTV x264 SVA</title>
+            <link>magnet:?xt=urn:btih:48CE0C731F7C3580855FF0BB2130131914CEA14C&amp;dn=This+Is+Us+S03E09+HDTV+x264+SVA&amp;tr=udp%3A%2F%2Ftest.test.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.leechers-paradise.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.opentrackr.org%3A1337%2Fannounce&amp;tr=http%3A%2F%2Ftest.test2.com%3A80%2Fannounce</link>
+            <guid isPermaLink="false">eef7033af5cc08607cdeb338b28f8228ca0ac0ca</guid>
+            <pubDate>Wed, 28 Nov 2018 03:25:21 +0000</pubDate>
+            <description>New episode: This Is Us S03E09 HDTV x264 SVA</description>
+            <tv:show_id>634</tv:show_id>
+            <tv:external_id>17128</tv:external_id>
+            <tv:show_name>This is Us</tv:show_name>
+            <tv:episode_id>83092</tv:episode_id>
+            <tv:raw_title>This Is Us S03E09 HDTV x264 SVA</tv:raw_title>
+            <tv:info_hash>48CE0C731F7C3580855FF0BB2130131914CEA14C</tv:info_hash>
+            <enclosure
+                    url="magnet:?xt=urn:btih:48CE0C731F7C3580855FF0BB2130131914CEA14C&amp;dn=This+Is+Us+S03E09+HDTV+x264+SVA&amp;tr=udp%3A%2F%2Ftest.test.tk%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.leechers-paradise.org%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftest.opentrackr.org%3A1337%2Fannounce&amp;tr=http%3A%2F%2Ftest.test2.com%3A80%2Fannounce"
+                    length="0" type="application/x-bittorrent"/>
+        </item>
+    </channel>
+</rss>
