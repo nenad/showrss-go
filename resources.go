@@ -2,6 +2,7 @@ package showrss
 
 import (
 	"encoding/xml"
+	"time"
 )
 
 type Item struct {
@@ -44,10 +45,11 @@ type Rss struct {
 }
 
 type Episode struct {
-	ShowName string
-	Name     string
-	Episode  int
-	Season   int
-	Magnet   string
-	Quality  string
+	ShowName    string
+	Name        string
+	Episode     int
+	Season      int
+	Magnet      string
+	Quality     string
+	ReleaseDate time.Time
 }

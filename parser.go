@@ -4,16 +4,20 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 )
 
 func extractEpisodes(feed Rss) []Episode {
 	episodes := make([]Episode, len(feed.Channel.Items))
 	for i, item := range feed.Channel.Items {
+		date, _ := time.Parse(time.RFC1123Z, item.PubDate)
+
 		episodes[i].Season, episodes[i].Episode = extractEpisodeSeason(item)
 		episodes[i].Quality = extractQuality(item)
 		episodes[i].ShowName = item.ShowName
 		episodes[i].Magnet = item.Link
 		episodes[i].Name = extractName(item)
+		episodes[i].ReleaseDate = date
 	}
 
 	return episodes
@@ -60,8 +64,5 @@ func extractName(item Item) string {
 	name = strings.Replace(name, item.ShowName, "", 1)
 	name = strings.TrimSpace(name)
 
-	if name == "" {
-		return "-"
-	}
 	return name
 }
