@@ -45,13 +45,13 @@ func extractEpisodeSeason(item Item) (season int, episode int) {
 
 var qualityRegex = regexp.MustCompile("1080p|720p")
 
-func extractQuality(item Item) string {
+func extractQuality(item Item) Quality {
 	matches := qualityRegex.FindAllStringSubmatch(item.Title, -1)
 	if len(matches) != 1 {
-		return "SD"
+		return QualitySD
 	}
 
-	return matches[0][0]
+	return Quality(matches[0][0])
 }
 
 func extractName(item Item) string {

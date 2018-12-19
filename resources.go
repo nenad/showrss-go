@@ -50,6 +50,14 @@ type Episode struct {
 	Episode     int
 	Season      int
 	Magnet      string
-	Quality     string
+	Quality     Quality
 	ReleaseDate time.Time
 }
+
+type Quality string
+
+const (
+	QualityFullHD Quality = "1080p"
+	QualityHD     Quality = "720p"
+	QualitySD     Quality = "SD"
+)
